@@ -47,6 +47,15 @@ body {
     border-bottom: 3px solid var(--border-color);
     padding-bottom: 30px;
     margin-bottom: 15px;
+
+}
+
+.list {
+    list-style: none;
+}
+
+.item {
+    text-decoration: none;
 }
 
 @media screen and (max-width: 576px) {
@@ -164,6 +173,23 @@ body {
     color: var(--secondary-text-color);
     text-align: center;
     margin-bottom: 15px;
+    text-decoration-color: var(--text-decoration-color);
+    text-decoration-line: underline;
+    
+} 
+
+.skills-block {
+    display: flex;
+    gap: 100px;
+    text-align: start;
+    justify-content: center;
+}
+
+.skills {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    align-items: center;
 }
 
 .skills__text {
