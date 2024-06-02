@@ -47,6 +47,11 @@ body {
     border-bottom: 3px solid var(--border-color);
     padding-bottom: 30px;
     margin-bottom: 15px;
+
+}
+
+.list {
+    list-style: none;
 }
 
 @media screen and (max-width: 576px) {
@@ -66,6 +71,16 @@ body {
 
     .experiences {
         margin-right: 0;
+    }
+
+    .hobbies {
+        margin-right: 0;
+    }
+
+    .hobbies_header {
+        color: var(--secondary-text-color);
+        text-align: center;
+        margin-bottom: 20px;
     }
 }
 
@@ -91,6 +106,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    margin-bottom: 20px;
 }
 
 .contact-info__block--center {
@@ -126,8 +142,8 @@ body {
 
 .contact-info__avatar {
     border-radius: 50%;
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     object-fit: cover;
     border: 3px solid;
     border-color: var(--text-decoration-color);
@@ -157,13 +173,26 @@ body {
 
 .intro_text {
     color: var(--secondary-text-color);
-    text-align: justify;
+    text-align: center;
+    font-size: 18px;
 }
 
 .skills__header {
     color: var(--secondary-text-color);
-    text-align: center;
+    text-align: start;
     margin-bottom: 15px;
+} 
+
+.skills-block {
+    display: flex;
+    text-align: start;
+    justify-content: space-around;
+}
+
+.skills {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
 }
 
 .skills__text {
@@ -179,7 +208,7 @@ body {
 
 .experiences__header {
     color: var(--secondary-text-color);
-    text-align: left;
+    text-align: center;
     margin-bottom: 20px;
 }
 
@@ -250,6 +279,7 @@ body {
 
 .additional-info__education-university-name {
     color: var(--secondary-text-color);
+    margin-bottom: 15px;
 }
 
 .additional-info__languages {
@@ -264,4 +294,17 @@ body {
 
 .additional-info__languages-item {
     color: var(--secondary-text-color);
+}
+
+.hobbies {
+    margin-right: 0;
+    display: flex;
+    gap: 40px;
+    margin-left: 30px;
+}
+
+.hobbies_header {
+    color: var(--secondary-text-color);
+    text-align: center;
+    margin-bottom: 20px;
 }
