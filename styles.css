@@ -47,6 +47,15 @@ body {
     border-bottom: 3px solid var(--border-color);
     padding-bottom: 30px;
     margin-bottom: 15px;
+
+}
+
+.list {
+    list-style: none;
+}
+
+.item {
+    text-decoration: none;
 }
 
 @media screen and (max-width: 576px) {
@@ -162,8 +171,20 @@ body {
 
 .skills__header {
     color: var(--secondary-text-color);
-    text-align: center;
+    text-align: start;
     margin-bottom: 15px;
+} 
+
+.skills-block {
+    display: flex;
+    text-align: start;
+    justify-content: space-around;
+}
+
+.skills {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
 }
 
 .skills__text {
@@ -250,6 +271,7 @@ body {
 
 .additional-info__education-university-name {
     color: var(--secondary-text-color);
+    margin-bottom: 15px;
 }
 
 .additional-info__languages {
