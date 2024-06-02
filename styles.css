@@ -171,25 +171,20 @@ body {
 
 .skills__header {
     color: var(--secondary-text-color);
-    text-align: center;
+    text-align: start;
     margin-bottom: 15px;
-    text-decoration-color: var(--text-decoration-color);
-    text-decoration-line: underline;
-    
 } 
 
 .skills-block {
     display: flex;
-    gap: 100px;
     text-align: start;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 .skills {
     display: flex;
-    flex-direction: row;
-    gap: 30px;
-    align-items: center;
+    flex-direction: column;
+    text-align: start;
 }
 
 .skills__text {
